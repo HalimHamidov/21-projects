@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	ft_print_result(char const *s)
+void	ft_print_result_str(char const *s)
 {
 	int		len;
 

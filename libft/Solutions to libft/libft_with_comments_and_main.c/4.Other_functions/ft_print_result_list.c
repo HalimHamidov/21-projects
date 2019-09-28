@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	ft_print_result(t_list *elem)
+void	ft_print_result_list(t_list *elem)
 {
 	int		len;
 
