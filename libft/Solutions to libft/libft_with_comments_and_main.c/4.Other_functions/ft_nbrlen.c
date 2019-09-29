@@ -6,13 +6,13 @@
 /*   By: apearl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/28 22:49:39 by apearl            #+#    #+#             */
-/*   Updated: 2019/09/28 22:52:19 by apearl           ###   ########.fr       */
+/*   Updated: 2019/09/29 19:24:25 by apearl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_nbrlen(long c, int len)
+int	ft_nbrlen(long c, int len)
 {
 	int		base;
 
