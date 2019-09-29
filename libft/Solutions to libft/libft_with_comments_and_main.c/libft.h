@@ -6,7 +6,7 @@
 /*   By: apearl <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/17 21:31:22 by apearl            #+#    #+#             */
-/*   Updated: 2019/09/28 23:18:07 by apearl           ###   ########.fr       */
+/*   Updated: 2019/09/29 19:21:19 by apearl           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,10 +83,10 @@ void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
-static void			ft_del(void *content, size_t content_size);
 t_list				*ft_map(t_list *elem);
-static int			ft_nbrlen(long c, int len);
-void				ft_print_result(t_list *elem);
-void				ft_print_result(char const *s);
+void				ft_print_result_list(t_list *elem);
+void				ft_print_result_str(char const *s);
+int					ft_nbrlen(long c, int len);
+void				ft_del(void *content, size_t content_size);
 
 #endif

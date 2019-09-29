@@ -6,7 +6,7 @@
 #    By: apearl <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/18 23:28:51 by apearl            #+#    #+#              #
-#    Updated: 2019/09/28 23:20:22 by apearl           ###   ########.fr        #
+#    Updated: 2019/09/28 23:55:27 by apearl           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,11 +72,11 @@ SRC = ft_atoi.c \
 	  ft_lstiter.c \
 	  ft_lstnew.c \
 	  ft_lstmap.c \
-	  ft_del.c \
 	  ft_map.c \
-	  ft_nbrlen.c \
 	  ft_print_result_list.c \
 	  ft_print_result_str.c \
+	  ft_del.c \
+	  ft_nbrlen.c \
 
 OBJ = $(SRC:.c=.o)
 
