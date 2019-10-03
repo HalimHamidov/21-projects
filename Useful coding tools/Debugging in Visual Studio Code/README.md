@@ -36,4 +36,7 @@ Any suggestion's will be highly appreciated. -_-
 
 Don't ever forget ever to use `-g` like the example below during compiling:
 
-gcc main.c get_next_line.c get_next_line.h libft.a -g
+```diff
+- => gcc main.c get_next_line.c get_next_line.h libft.a -g
+```
+
