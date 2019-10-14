@@ -44,4 +44,4 @@ https://github.com/EPgg92/gnl/blob/master/main.c. Check it
 
 https://github.com/jraleman/42_get_next_line/blob/master/src/get_next_line.c
 
-C99 language standard (available at open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf ✅
+C99 language standard available at https://open-std.org/JTC1/SC22/WG14/www/docs/n1256.pdf ✅
