@@ -1,0 +1,585 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+mi-o3.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Sun Oct 20 19:50:59 MSK 2019
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2019/activities/fillit/apearl
+
+= Git history ==================================================================
+$> git -C /var/folders/mn/h55gjsl50d94m5xtwbpzlq_c0000gq/T/tmpTUDeK9/user log --pretty='%H - %an, %ad : %s'
+9b8754373aa7e62f3aa658f8cbd6ee73a69385f5 - Daniil, Sat Oct 19 17:00:22 2019 +0300 : 2
+b0fe96c0fb6b729cb6975837393c5760f5b10b08 - Daniil, Sat Oct 19 16:59:45 2019 +0300 : 1
+d24aec1f0b1abe8ee634a56cd8ece64302fb9333 - Daniil, Sat Oct 19 16:56:43 2019 +0300 : done
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/mn/h55gjsl50d94m5xtwbpzlq_c0000gq/T/tmpTUDeK9/user
+total 40
+-rw-r--r-- 1 deepthought deepthought 1254 Oct 20 19:51 Makefile
+-rw-r--r-- 1 deepthought deepthought 9069 Oct 20 19:51 __GIT_HISTORY
+-rw-r--r-- 1 deepthought deepthought 16 Oct 20 19:51 author
+drwxr-xr-x 62 deepthought deepthought 2108 Oct 20 19:51 libft
+drwxr-xr-x 12 deepthought deepthought 408 Oct 20 19:51 src
+
+/var/folders/mn/h55gjsl50d94m5xtwbpzlq_c0000gq/T/tmpTUDeK9/user/libft:
+total 480
+-rw-r--r-- 1 deepthought deepthought 2294 Oct 20 19:51 Makefile
+-rw-r--r-- 1 deepthought deepthought 1443 Oct 20 19:51 ft_atoi.c
+-rw-r--r-- 1 deepthought deepthought 1028 Oct 20 19:51 ft_bzero.c
+-rw-r--r-- 1 deepthought deepthought 981 Oct 20 19:51 ft_isalnum.c
+-rw-r--r-- 1 deepthought deepthought 1028 Oct 20 19:51 ft_isalpha.c
+-rw-r--r-- 1 deepthought deepthought 969 Oct 20 19:51 ft_isascii.c
+-rw-r--r-- 1 deepthought deepthought 971 Oct 20 19:51 ft_isdigit.c
+-rw-r--r-- 1 deepthought deepthought 1000 Oct 20 19:51 ft_isprint.c
+-rw-r--r-- 1 deepthought deepthought 1461 Oct 20 19:51 ft_itoa.c
+-rw-r--r-- 1 deepthought deepthought 1024 Oct 20 19:51 ft_lstadd.c
+-rw-r--r-- 1 deepthought deepthought 1095 Oct 20 19:51 ft_lstdel.c
+-rw-r--r-- 1 deepthought deepthought 1090 Oct 20 19:51 ft_lstdelone.c
+-rw-r--r-- 1 deepthought deepthought 1031 Oct 20 19:51 ft_lstiter.c
+-rw-r--r-- 1 deepthought deepthought 1390 Oct 20 19:51 ft_lstmap.c
+-rw-r--r-- 1 deepthought deepthought 1357 Oct 20 19:51 ft_lstnew.c
+-rw-r--r-- 1 deepthought deepthought 1025 Oct 20 19:51 ft_memalloc.c
+-rw-r--r-- 1 deepthought deepthought 1204 Oct 20 19:51 ft_memccpy.c
+-rw-r--r-- 1 deepthought deepthought 1138 Oct 20 19:51 ft_memchr.c
+-rw-r--r-- 1 deepthought deepthought 1177 Oct 20 19:51 ft_memcmp.c
+-rw-r--r-- 1 deepthought deepthought 1116 Oct 20 19:51 ft_memcpy.c
+-rw-r--r-- 1 deepthought deepthought 1011 Oct 20 19:51 ft_memdel.c
+-rw-r--r-- 1 deepthought deepthought 1208 Oct 20 19:51 ft_memmove.c
+-rw-r--r-- 1 deepthought deepthought 1098 Oct 20 19:51 ft_memset.c
+-rw-r--r-- 1 deepthought deepthought 958 Oct 20 19:51 ft_putchar.c
+-rw-r--r-- 1 deepthought deepthought 978 Oct 20 19:51 ft_putchar_fd.c
+-rw-r--r-- 1 deepthought deepthought 1004 Oct 20 19:51 ft_putendl.c
+-rw-r--r-- 1 deepthought deepthought 1017 Oct 20 19:51 ft_putendl_fd.c
+-rw-r--r-- 1 deepthought deepthought 1151 Oct 20 19:51 ft_putnbr.c
+-rw-r--r-- 1 deepthought deepthought 1204 Oct 20 19:51 ft_putnbr_fd.c
+-rw-r--r-- 1 deepthought deepthought 1013 Oct 20 19:51 ft_putstr.c
+-rw-r--r-- 1 deepthought deepthought 995 Oct 20 19:51 ft_putstr_fd.c
+-rw-r--r-- 1 deepthought deepthought 1036 Oct 20 19:51 ft_strcat.c
+-rw-r--r-- 1 deepthought deepthought 1091 Oct 20 19:51 ft_strchr.c
+-rw-r--r-- 1 deepthought deepthought 957 Oct 20 19:51 ft_strclr.c
+-rw-r--r-- 1 deepthought deepthought 1198 Oct 20 19:51 ft_strcmp.c
+-rw-r--r-- 1 deepthought deepthought 1067 Oct 20 19:51 ft_strcpy.c
+-rw-r--r-- 1 deepthought deepthought 991 Oct 20 19:51 ft_strdel.c
+-rw-r--r-- 1 deepthought deepthought 1124 Oct 20 19:51 ft_strdup.c
+-rw-r--r-- 1 deepthought deepthought 1029 Oct 20 19:51 ft_strequ.c
+-rw-r--r-- 1 deepthought deepthought 1040 Oct 20 19:51 ft_striter.c
+-rw-r--r-- 1 deepthought deepthought 1060 Oct 20 19:51 ft_striteri.c
+-rw-r--r-- 1 deepthought deepthought 1160 Oct 20 19:51 ft_strjoin.c
+-rw-r--r-- 1 deepthought deepthought 1195 Oct 20 19:51 ft_strlcat.c
+-rw-r--r-- 1 deepthought deepthought 1002 Oct 20 19:51 ft_strlen.c
+-rw-r--r-- 1 deepthought deepthought 1216 Oct 20 19:51 ft_strmap.c
+-rw-r--r-- 1 deepthought deepthought 1218 Oct 20 19:51 ft_strmapi.c
+-rw-r--r-- 1 deepthought deepthought 1069 Oct 20 19:51 ft_strncat.c
+-rw-r--r-- 1 deepthought deepthought 1220 Oct 20 19:51 ft_strncmp.c
+-rw-r--r-- 1 deepthought deepthought 1103 Oct 20 19:51 ft_strncpy.c
+-rw-r--r-- 1 deepthought deepthought 1044 Oct 20 19:51 ft_strnequ.c
+-rw-r--r-- 1 deepthought deepthought 1003 Oct 20 19:51 ft_strnew.c
+-rw-r--r-- 1 deepthought deepthought 1309 Oct 20 19:51 ft_strnstr.c
+-rw-r--r-- 1 deepthought deepthought 1113 Oct 20 19:51 ft_strrchr.c
+-rw-r--r-- 1 deepthought deepthought 1766 Oct 20 19:51 ft_strsplit.c
+-rw-r--r-- 1 deepthought deepthought 1288 Oct 20 19:51 ft_strstr.c
+-rw-r--r-- 1 deepthought deepthought 1214 Oct 20 19:51 ft_strsub.c
+-rw-r--r-- 1 deepthought deepthought 1439 Oct 20 19:51 ft_strtrim.c
+-rw-r--r-- 1 deepthought deepthought 990 Oct 20 19:51 ft_tolower.c
+-rw-r--r-- 1 deepthought deepthought 990 Oct 20 19:51 ft_toupper.c
+-rw-r--r-- 1 deepthought deepthought 3778 Oct 20 19:51 libft.h
+
+/var/folders/mn/h55gjsl50d94m5xtwbpzlq_c0000gq/T/tmpTUDeK9/user/src:
+total 80
+-rw-r--r-- 1 deepthought deepthought 2082 Oct 20 19:51 algo.c
+-rw-r--r-- 1 deepthought deepthought 1852 Oct 20 19:51 checker.c
+-rw-r--r-- 1 deepthought deepthought 3337 Oct 20 19:51 fill_square.c
+-rw-r--r-- 1 deepthought deepthought 2771 Oct 20 19:51 fillit.c
+-rw-r--r-- 1 deepthought deepthought 1875 Oct 20 19:51 fillit.h
+-rw-r--r-- 1 deepthought deepthought 1639 Oct 20 19:51 free_us.c
+-rw-r--r-- 1 deepthought deepthought 2085 Oct 20 19:51 get_next_line.c
+-rw-r--r-- 1 deepthought deepthought 1347 Oct 20 19:51 helpers.c
+-rw-r--r-- 1 deepthought deepthought 1304 Oct 20 19:51 main.c
+-rw-r--r-- 1 deepthought deepthought 1771 Oct 20 19:51 optimizer.c
+ 
+= edge_tests ===================================================================
+make -C libft/ fclean
+OBJ deleted
+libft.a deleted
+make -C libft/ fclean
+OBJ deleted
+libft.a deleted
+
+make -C libft/
+libft.a created
+libft.a indexed
+gcc -Wall -Wextra -Werror -o fillit ./src/*.c -I ./src/ -L. libft/libft.a
+
+-rwxr-xr-x 1 deepthought deepthought 19420 Oct 20 19:51 fillit
+
+= Test 1 ===================================================
+$> ./jdgx04c6e65tpyboxbf71ov0 test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./cmi03p6xrwvw7z4dd2tnl0ib test2.prm
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./o4joy9r3l50mco75o2r7byxe test3.prm
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./7w1akm66chd2wbg6hpx8jkq9 test4.prm
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./rlkzmks9ch3uoneud6zzwvma test5.prm
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./og0q5t7cmvpvvzehczvxt9s5 test6.prm
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./m6luncbsso9sp2i51to6cg4t test7.prm
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./m33a7ugfwkcnyguhk0zmcdri test8.prm
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./s4uq6rh3p76ceqrjcbqyok7a test9.prm
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./wv9f03hnr7iyvnn72b4tqwhe test10.prm
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./j42wbejo56ksgkd0t88sx9pu test11.prm
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./msisxt6kwrqd2yu3vdakx162 test12.prm
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./rmetf5zpern2blx8o818iimb test13.prm
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./a6qjqd75i84lsf20vuqkxyet test14.prm
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./z3jp9o8p82l23hnjrizxh9ds test15.prm
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+= Test 16 ==================================================
+$> ./yyxawkhj3jyyusi64uybpzwk test16.prm
+$> diff -U 3 user_output_test16 test16.output | cat -e
+
+Diff OK :D
+= Test 17 ==================================================
+$> ./2q6e2ks1cdenhkr4ir08g9y9 test17.prm
+$> diff -U 3 user_output_test17 test17.output | cat -e
+
+Diff OK :D
+= Test 18 ==================================================
+$> ./71ez2dqcz3syd9wtrgu8hhv2 test18.prm
+$> diff -U 3 user_output_test18 test18.output | cat -e
+
+Diff OK :D
+= Test 19 ==================================================
+$> ./t8mng8d9uy746t8wosy1qgjc test19.prm
+$> diff -U 3 user_output_test19 test19.output | cat -e
+
+Diff OK :D
+= Test 20 ==================================================
+$> ./lw2iiq6drt2vlljo77tdrtss test20.prm
+$> diff -U 3 user_output_test20 test20.output | cat -e
+
+Diff OK :D
+= Test 21 ==================================================
+$> ./hh4pee6znc8y62bdl9iyfy2t test21.prm
+$> diff -U 3 user_output_test21 test21.output | cat -e
+
+Diff OK :D
+= Test 22 ==================================================
+$> ./59xe3frhtmrjuzkx5f72hpd0 test22.prm
+$> diff -U 3 user_output_test22 test22.output | cat -e
+
+Diff OK :D
+= Test 23 ==================================================
+$> ./rwgtgk8p86zzw8g0t6wrrf42 test23.prm
+$> diff -U 3 user_output_test23 test23.output | cat -e
+
+Diff OK :D
+= Test 24 ==================================================
+$> ./zbnkuke42ld0rkj71a57ne39 test24.prm
+$> diff -U 3 user_output_test24 test24.output | cat -e
+
+Diff OK :D
+= Test 25 ==================================================
+$> ./j5ujtfe8l4nifx6u4mvzbwjn test25.prm
+$> diff -U 3 user_output_test25 test25.output | cat -e
+
+Diff OK :D
+= Test 26 ==================================================
+$> ./udzjtnab10ujuk1pjn6djplp test26.prm
+$> diff -U 3 user_output_test26 test26.output | cat -e
+
+Diff OK :D
+= Test 27 ==================================================
+$> ./58jjob1bwq560lcg6u8zfwen test27.prm
+$> diff -U 3 user_output_test27 test27.output | cat -e
+
+Diff OK :D
+All tests OK
+Grade: 1
+
+= rand_tests ===================================================================
+make -C libft/ fclean
+OBJ deleted
+libft.a deleted
+make -C libft/ fclean
+OBJ deleted
+libft.a deleted
+
+make -C libft/
+libft.a created
+libft.a indexed
+gcc -Wall -Wextra -Werror -o fillit ./src/*.c -I ./src/ -L. libft/libft.a
+
+-rwxr-xr-x 1 deepthought deepthought 19420 Oct 20 19:51 fillit
+
+= Test 20 ==================================================
+$> ./krpnszgi385hncs2fnpqvgpa test20.prm
+$> diff -U 3 user_output_test20 test20.output | cat -e
+
+Diff OK :D
+= Test 21 ==================================================
+$> ./us6mxqdmbbhjgq3oftqtl3ax test21.prm
+$> diff -U 3 user_output_test21 test21.output | cat -e
+
+Diff OK :D
+= Test 22 ==================================================
+$> ./7fbte4uyo9nx7szz7dl5tpju test22.prm
+$> diff -U 3 user_output_test22 test22.output | cat -e
+
+Diff OK :D
+= Test 23 ==================================================
+$> ./h6hnrt6ckf2rhgkjb0m79zsq test23.prm
+$> diff -U 3 user_output_test23 test23.output | cat -e
+
+Diff OK :D
+= Test 24 ==================================================
+$> ./d8zwx9m9v9kn83i5e21emdx5 test24.prm
+$> diff -U 3 user_output_test24 test24.output | cat -e
+
+Diff OK :D
+= Test 25 ==================================================
+$> ./fmilh0dny5iov1vfhc7nktcd test25.prm
+$> diff -U 3 user_output_test25 test25.output | cat -e
+
+Diff OK :D
+= Test 26 ==================================================
+$> ./t8e0t08gjw3e0cc2s46bk42s test26.prm
+$> diff -U 3 user_output_test26 test26.output | cat -e
+
+Diff OK :D
+= Test 27 ==================================================
+$> ./01u1vl46rzhi3vko66x7cqzf test27.prm
+$> diff -U 3 user_output_test27 test27.output | cat -e
+
+Diff OK :D
+= Test 28 ==================================================
+$> ./nc92ojmd87owm51nghtc3w9c test28.prm
+$> diff -U 3 user_output_test28 test28.output | cat -e
+
+Diff OK :D
+= Test 29 ==================================================
+$> ./azienjll98jwadm3ab4kooiz test29.prm
+$> diff -U 3 user_output_test29 test29.output | cat -e
+
+Diff OK :D
+= Test 30 ==================================================
+$> ./obm45lrqp61fgkw9lnlckadm test30.prm
+$> diff -U 3 user_output_test30 test30.output | cat -e
+
+Diff OK :D
+= Test 31 ==================================================
+$> ./iacccdnwbixp62jsngb8csxj test31.prm
+$> diff -U 3 user_output_test31 test31.output | cat -e
+
+Diff OK :D
+= Test 32 ==================================================
+$> ./gb5zlxk5hk3nexsvm136h90c test32.prm
+$> diff -U 3 user_output_test32 test32.output | cat -e
+
+Diff OK :D
+= Test 33 ==================================================
+$> ./o1gle0qwx2azvlgl1u73xf0z test33.prm
+$> diff -U 3 user_output_test33 test33.output | cat -e
+
+Diff OK :D
+= Test 34 ==================================================
+$> ./ua9hjdfuqi59dztxetn98vgt test34.prm
+$> diff -U 3 user_output_test34 test34.output | cat -e
+
+Diff OK :D
+= Test 35 ==================================================
+$> ./ug594uj5x01fdxd063x6y8g0 test35.prm
+$> diff -U 3 user_output_test35 test35.output | cat -e
+
+Diff OK :D
+= Test 36 ==================================================
+$> ./aod530huv1wpcz8byhq3dk0z test36.prm
+$> diff -U 3 user_output_test36 test36.output | cat -e
+
+Diff OK :D
+= Test 37 ==================================================
+$> ./tle0u0h626p6qi8pmn23r6wz test37.prm
+$> diff -U 3 user_output_test37 test37.output | cat -e
+
+Diff OK :D
+= Test 38 ==================================================
+$> ./4ylw0a0hruje4y8plxxcx28w test38.prm
+$> diff -U 3 user_output_test38 test38.output | cat -e
+
+Diff OK :D
+= Test 39 ==================================================
+$> ./yuwu2il5qk34x6zarsrpd474 test39.prm
+$> diff -U 3 user_output_test39 test39.output | cat -e
+
+Diff OK :D
+= Test 40 ==================================================
+$> ./rmmfvyf9gt85uh2kjc061a9r test40.prm
+$> diff -U 3 user_output_test40 test40.output | cat -e
+
+Diff OK :D
+= Test 41 ==================================================
+$> ./5tysomo2536kornxy49oz8st test41.prm
+$> diff -U 3 user_output_test41 test41.output | cat -e
+
+Diff OK :D
+= Test 42 ==================================================
+$> ./i5nuuyutahok3nzokc7f3k2s test42.prm
+$> diff -U 3 user_output_test42 test42.output | cat -e
+
+Diff OK :D
+= Test 43 ==================================================
+$> ./xknd8cqfqa5422r22vz437db test43.prm
+$> diff -U 3 user_output_test43 test43.output | cat -e
+
+Diff OK :D
+= Test 44 ==================================================
+$> ./mhrn4icm1kkw6ridfvaxgd2l test44.prm
+$> diff -U 3 user_output_test44 test44.output | cat -e
+
+Diff OK :D
+= Test 45 ==================================================
+$> ./x2viiflyshvbx6ennxx4bw5p test45.prm
+$> diff -U 3 user_output_test45 test45.output | cat -e
+
+Diff OK :D
+= Test 46 ==================================================
+$> ./uy5xs2apsyxonw3muhkw9wm8 test46.prm
+$> diff -U 3 user_output_test46 test46.output | cat -e
+
+Diff OK :D
+= Test 47 ==================================================
+$> ./vxex7h5vj7bed6z507vmmr8i test47.prm
+$> diff -U 3 user_output_test47 test47.output | cat -e
+
+Diff OK :D
+= Test 48 ==================================================
+$> ./95u3omwtmjizvlux512ap94z test48.prm
+$> diff -U 3 user_output_test48 test48.output | cat -e
+
+Diff OK :D
+= Test 49 ==================================================
+$> ./i5hr7uihukrvyvkc3md9kb5z test49.prm
+$> diff -U 3 user_output_test49 test49.output | cat -e
+
+Diff OK :D
+= Test 50 ==================================================
+$> ./11vnyvvj5y9xtopbyg3r478h test50.prm
+$> diff -U 3 user_output_test50 test50.output | cat -e
+
+Diff OK :D
+= Test 51 ==================================================
+$> ./m1gwj7tnqo5k371k4mlao5mx test51.prm
+$> diff -U 3 user_output_test51 test51.output | cat -e
+
+Diff OK :D
+= Test 52 ==================================================
+$> ./v1n9n3ze3a6li9zerghnlcqk test52.prm
+$> diff -U 3 user_output_test52 test52.output | cat -e
+
+Diff OK :D
+= Test 53 ==================================================
+$> ./ozucaggl8dz4cqpl1ogej9wg test53.prm
+$> diff -U 3 user_output_test53 test53.output | cat -e
+
+Diff OK :D
+= Test 54 ==================================================
+$> ./91pzd1m9ilj7dix9532vtri2 test54.prm
+$> diff -U 3 user_output_test54 test54.output | cat -e
+
+Diff OK :D
+= Test 55 ==================================================
+$> ./jidx46ddtdr2omgmypt80omo test55.prm
+$> diff -U 3 user_output_test55 test55.output | cat -e
+
+Diff OK :D
+= Test 56 ==================================================
+$> ./unppmzhmbqjd3houtr7ilq97 test56.prm
+$> diff -U 3 user_output_test56 test56.output | cat -e
+
+Diff OK :D
+= Test 57 ==================================================
+$> ./a2cynvakm3oo252wgexe4esv test57.prm
+$> diff -U 3 user_output_test57 test57.output | cat -e
+
+Diff OK :D
+= Test 58 ==================================================
+$> ./cv3b0gpnv0grxr336zbv7cof test58.prm
+$> diff -U 3 user_output_test58 test58.output | cat -e
+
+Diff OK :D
+= Test 59 ==================================================
+$> ./ubrofarn0v0q5kup1yrjkjun test59.prm
+$> diff -U 3 user_output_test59 test59.output | cat -e
+
+Diff OK :D
+= Test 60 ==================================================
+$> ./zwmhxxvvyg22ofphmnnh8ggg test60.prm
+$> diff -U 3 user_output_test60 test60.output | cat -e
+
+Diff OK :D
+= Test 61 ==================================================
+$> ./genqm7gy9w1m39xbkn38litt test61.prm
+$> diff -U 3 user_output_test61 test61.output | cat -e
+
+Diff OK :D
+= Test 62 ==================================================
+$> ./jhiq74vtmzkm84t966j6v6vv test62.prm
+$> diff -U 3 user_output_test62 test62.output | cat -e
+
+Diff OK :D
+= Test 63 ==================================================
+$> ./nhzskc59y1sfnkrrvg62wzny test63.prm
+$> diff -U 3 user_output_test63 test63.output | cat -e
+
+Diff OK :D
+= Test 64 ==================================================
+$> ./opl53o5rjdh52p1tz0jfneq4 test64.prm
+$> diff -U 3 user_output_test64 test64.output | cat -e
+
+Diff OK :D
+= Test 65 ==================================================
+$> ./yzkl5oukbb4n7w83iv0llhqn test65.prm
+$> diff -U 3 user_output_test65 test65.output | cat -e
+
+Diff OK :D
+= Test 66 ==================================================
+$> ./m3ubxdwur37fnywt12u7d1by test66.prm
+$> diff -U 3 user_output_test66 test66.output | cat -e
+
+Diff OK :D
+= Test 67 ==================================================
+$> ./au5ru2yqxxzdrgn1kyf5y6nd test67.prm
+$> diff -U 3 user_output_test67 test67.output | cat -e
+
+Diff OK :D
+= Test 68 ==================================================
+$> ./b5qnehomguprbtd6hsskdhtf test68.prm
+$> diff -U 3 user_output_test68 test68.output | cat -e
+
+Diff OK :D
+= Test 69 ==================================================
+$> ./rnex10it8r2j2mm90gesfh03 test69.prm
+$> diff -U 3 user_output_test69 test69.output | cat -e
+
+Diff OK :D
+= Test 70 ==================================================
+$> ./xg2fmmm1nv3bc8si69jojn2x test70.prm
+$> diff -U 3 user_output_test70 test70.output | cat -e
+
+Diff OK :D
+= Test 71 ==================================================
+$> ./up1rrqv0whyhzgzcmt1dyend test71.prm
+$> diff -U 3 user_output_test71 test71.output | cat -e
+
+Diff OK :D
+= Test 72 ==================================================
+$> ./mwzq9svrp6a8m3ou861zoi61 test72.prm
+$> diff -U 3 user_output_test72 test72.output | cat -e
+
+Diff OK :D
+= Test 73 ==================================================
+$> ./tphjp8lhmlr93v2bsunn5tut test73.prm
+$> diff -U 3 user_output_test73 test73.output | cat -e
+
+Diff OK :D
+= Test 74 ==================================================
+$> ./qqo52jfs0kt26e7ipgeq0633 test74.prm
+$> diff -U 3 user_output_test74 test74.output | cat -e
+
+Diff OK :D
+= Test 75 ==================================================
+$> ./f0mt8z91qemnogujaj8koawt test75.prm
+$> diff -U 3 user_output_test75 test75.output | cat -e
+
+Diff OK :D
+= Test 76 ==================================================
+$> ./3r27a143sb66osh5rs0xrpi1 test76.prm
+$> diff -U 3 user_output_test76 test76.output | cat -e
+
+Diff OK :D
+= Test 77 ==================================================
+$> ./kny83o78fw2coa9pauulhkk1 test77.prm
+$> diff -U 3 user_output_test77 test77.output | cat -e
+
+Diff OK :D
+= Test 78 ==================================================
+$> ./wlatg9voifw7voanhh1ne5u7 test78.prm
+$> diff -U 3 user_output_test78 test78.output | cat -e
+
+Diff OK :D
+= Test 79 ==================================================
+$> ./3bemnncej3vn3d5soryx5qob test79.prm
+$> diff -U 3 user_output_test79 test79.output | cat -e
+
+Diff OK :D
+All tests OK
+Grade: 99
+
+= Final grade: 100 =============================================================
